@@ -8,34 +8,130 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style/override.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-white navbar-white">
+ <!-- Nav Bar start -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
   <a class="navbar-brand" href="#">
-    <img src="logo.jpg" alt="logo" style="width:80px;">
+    <img src="images/logo.png" alt="logo" style="width:150px;">
   </a>
   
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item ">
-      <a class="nav-link text-body" href="#">What’s new!</a>
+      <a class="nav-link text-success" href="#"><h4>What’s new!</h4></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-body" href="#">Why Exemplar?</a>
+      <a class="nav-link text-success" href="#"><h4>Why Exemplar?</h4></a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link text-success" href="#"><h4>Our Work</h4></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-body" href="#">Our Work</a>
+      <a class="nav-link text-success" href="#"><h4>Team</h4></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-body" href="#">Team</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-body" href="#">Contact</a>
+      <a class="nav-link text-success" href="#"><h4>Contact</h4></a>
     </li>
   </ul>
 </nav>
 
-<div class="container-fluid">
- 
+<!-- Nav Bar end -->
+
+<!-- caraousel start -->
+<div id="demo" class=" container-fluid carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/house1.jpg" alt="Los Angeles" width="1920" height="720">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/house2.jpg" alt="Chicago" width="1920" height="720">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/house3.jpg" alt="New York" width="1920" height="720">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
 </div>
+
+<!-- caraousel end -->
+
+<!-- jumbotron start Why us -->
+<div class="container">
+  <div class="jumbotron">
+    <div class ="text-primary"><h1>Why Exemplar?</h1> </div>     
+    <p>A strong senior management team of professionals with overall cumulative interior industry experience of more than 100 years.</p>
+    <p>Strong relationships with the best of architects, designers, services consultants and project managers – relationships based on performance, empathy & trust.</p>
+    <p>All projects are catered with a full-time, dedicated team that ensures adherence to budget and timelines with latest project management techniques.</p>
+    <p>Capable of delivering offices & residences of any scale on general Contracting basis keeping systematic and proactive approach to site management based on best practices and paying utmost important to safety.</p>
+  </div>  
+</div>
+
+<!-- jumbotron end -->
+
+<div class="container">
+  <div class="jumbotron">
+  <div class ="text-primary"><h1>Our Work</h1> </div> 
+  <p>The .thumbnail class can be used to display an image gallery.</p>
+  <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+  <p>Click on the images to enlarge them.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/lights.jpg" target="_blank">
+          <img src="images/work1.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="images/work1.jpg" target="_blank">
+          <img src="images/work1.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="images/work1.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
