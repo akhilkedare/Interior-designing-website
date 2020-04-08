@@ -1,0 +1,23 @@
+/*navbar*/
+.bg-dark {
+    background-color: #000000!important;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+}
+.text-success {
+    color: #ffffff!important;
+}
+/* why exemplar*/
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color:#ffffff!important;
+    border-radius: .3rem;
+}
+/* Our Work*/
+.text-primary {
+    color: #80c2b5!important;
+}
+
